@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    height:120px;
+    line-height: 90px;
+    position: absolute;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+header nav{
+    padding-left: 50px;
+    float: right;
+}
+
+.logo img{
+    padding-top: 0px;
+    height: 120px;
+    width: 120px;
+}
+
+header nav ul li a{
+    padding-right: 20px;
+    font-weight: bold;
+    color:black;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    color: darkgray;
+}
+
+.login{ 
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/sign.jpg);
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.fas{
+    padding: 30px;
+}
+
+.card h3{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top: black solid 3px;
+    border-top-width: thin;
+}
+
+.contact .container .row i{
+    padding: 30px 30px 30px 30px;
+}
